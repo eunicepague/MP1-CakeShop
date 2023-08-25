@@ -969,13 +969,18 @@ section {
   }
 }
 
-@media (min-width: 576px) and (max-width: 1200px) {
-  /* .form-control {
-    width: 20rem;
-    max-width: 100%;
-    min-width: 100%;
-  } */
+@media (min-width: 400px) and (max-width: 576px) {
+  .home-container h1 {
+    font-size: 4rem;
+  }
 
+  .delivery-two-section img {
+    width: 4rem;
+    height: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
   .delivery-two-section p {
     font-size: 0.7rem;
   }

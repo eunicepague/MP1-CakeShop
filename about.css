@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+  --white: #ffffff;
+  --pink: #f8d8e7;
+  --black: #000000;
+  --light-pink: #eadcdf;
+  --purple: #9e5f9e;
+
+  /* colors */
+  --cyan: #aae3e2;
+  --dark-brown: #3e2309;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+/* navbar */
+/* ----------------NAV BAR------------------- */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+.navbar img {
+  width: 5rem;
+  margin-left: 3rem;
+}
+.navbar li {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.navbar a {
+  font-size: 1.2rem;
+}
+
+#carouselExample {
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.carousel-item {
+  text-align: center; /* Center the image horizontally */
+  position: relative;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0 auto; /* Center the image vertically and horizontally */
+}
+
+/* -----------ABOUT----------- */
+.about-section {
+  width: 100%;
+  min-height: 100vh;
+  /* background-image: url('pink-background.png'); */
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section .container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-section .col {
+  flex: 0 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.about-video video {
+  width: 60rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-section span p {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+}
+
+/*-----------BREADCRUMB-----------*/
+
+.breadcrumbs {
+  display: flex;
+  margin: 2rem;
+}
+
+.breadcrumbs a,
+li {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+/* .breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* ---------- ABOUT US ------- */
+
+.parallax-section1 {
+  background-image: url('./images/parallax3.jpg');
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*-----------STORY-----------*/
+
+.story {
+  width: 100%;
+  min-height: 50vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.story .container {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.story .col {
+  flex: 0 0 auto;
+  position: relative;
+  text-align: center;
+}
+.greetings {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-family: 'Pacifico', cursive;
+}
+
+.story p {
+  margin-bottom: 2em;
+}
+
+.imgbox {
+  text-align: center;
+}
+
+.imgbox img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* team */
+.team {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--white);
+}
+
+.team span p {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+}
+
+.team p {
+  text-align: center;
+  padding: 2em 0 0;
+  font-size: 2em;
+}
+
+.team .container .col {
+  flex: 0 0 0%;
+}
+
+.team .container img {
+  max-width: 22em;
+  height: auto;
+  margin: auto;
+}
+
+.team .col p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER */
+
+/* body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(242, 228, 231);
+} */
+
+/* ACCORDIAN */
+.accordian-last {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.accordian-last h3 {
+  font-size: 2rem;
+  margin-top: 7rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background-color: #3e2309;
+  /* Remove position: absolute; */
+  /* Remove left, right, and bottom properties */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background-color: rgb(87, 34, 34);
+  position: absolute;
+  left: 0;
+  right: 0; */
+  bottom: 1;
+}
+
+.footer p {
+  font-size: 10rem;
+  display: absolute;
+  z-index: 999;
+}
+
+section {
+  padding: 80px 13% 70px;
+}
+.footer-content h4 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-content li a {
+  display: block;
+  color: #d6d6d6;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+.footer-content li a:hover {
+  transform: translateY(-3px) translateX(-5px);
+  color: #fff;
+}
+
+.footer-content p {
+  /* color: #d6d6d6; */
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+#footer-logo-wrapper img {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #fff;
+  width: 12rem;
+  height: 12rem; /* Set a fixed height for the wrapper */
+  margin-left: 50px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #00ffff;
+  padding: 10px 0; /* Adjust the padding as needed */
+  color: #000; /* Change the text color to your preference */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+@media (max-width: 1690px) {
+  section {
+    padding: 50px 5% 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  #footer-logo-wrapper img {
+    background-color: #fff;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="about.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span><img src="./images/my-logo.png" /></span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
+            <!-- Apply justify-content-center class here -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn cyan-button" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/carousel1.jpg"
+              class="d-block w-100"
+              alt="./images/carousel1.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/carousel2.jpg"
+              class="d-block w-100"
+              alt="./images/carousel1.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/carousel3.jpg"
+              class="d-block w-100"
+              alt="./images/carousel1.jpg"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- BREADCCRUMPS -->
+      <div
+        class="breadcrumbs"
+        style="
+          --bs-breadcrumb-divider: url(
+            &#34;data:image/svg + xml,
+            %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='%236c757d'/%3E%3C/svg%3E&#34;
+          );
+        "
+        aria-label="breadcrumb"
+      >
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="lastnatalagato.html">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">About Us</li>
+        </ol>
+      </div>
+      <section class="about-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-video">
+                <video autoplay loop>
+                  <source src="./images/about-video.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <span class="col mx-auto mt-5">
+                <p>About Us</p>
+              </span>
+              <p>
+                At The Good Shepherd Sweets (TGSS), our story is deeply rooted
+                in faith and the joy of sharing God's love through the art of
+                baking. Established in 2020, our journey began with a divine
+                calling to spread sweetness and positivity in a world that often
+                needs it most. In 2023, we embraced the digital age, extending
+                our mission to uplift spirits and celebrate faith through our
+                online platform, reaching fellow believers and dessert lovers
+                across the nation. Our logo, 'The Good Shepherd,' is not just a
+                name but a reflection of our faith journey. It is inspired by
+                our Good Lord Heavenly Father, who leads us with grace and love.
+                From our modest beginnings, we've been on a mission to craft
+                confections that not only tantalize taste buds but also nourish
+                the soul. At TGSS, every cake we create is a testament to the
+                goodness of the Shepherd, who guides us on this sweet journey.
+                We invite you to savor the love and faith baked into every bite,
+                as we aim to make life's moments a little sweeter and more
+                blessed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="parallax-section1">
+        <div class="container"></div>
+      </div>
+
+      <section class="story">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 d-flex flex-column align-items-center justify-content-center"
+            >
+              <!-- Add text-center class here -->
+              <span class="greetings">Our Story</span>
+              <p>
+                At The Good Shepherd Sweets (TGSS), our story is deeply rooted
+                in faith and the joy of sharing God's love through the art of
+                baking. Our journey began in 2020, with a divine calling to
+                spread sweetness and positivity in a world that often needs it
+                most. In 2023, we embraced the digital age, extending our
+                mission to uplift spirits and celebrate faith through our online
+                platform, reaching fellow believers and dessert lovers across
+                the nation. From our humble beginnings, we've been on a mission
+                to craft confections that not only tantalize taste buds but also
+                nourish the soul. At TGSS, every cake we create is a testament
+                to the goodness of the Shepherd, who guides us on this sweet
+                journey. We invite you to savor the love and faith baked into
+                every bite, as we aim to make life's moments a little sweeter
+                and more blessed.
+              </p>
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="imgbox">
+                <img src="./images/story.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="parallax-section1">
+        <div class="container"></div>
+      </div>
+
+      <section class="team">
+        <span><p>Meet Our Team</p></span>
+
+        <div class="container text-center">
+          <div class="row justify-content-center align-items-center">
+            <div class="col col-sm-12 col-md-6 col-lg-6 mb-4">
+              <img src="./images/chef1.jpg" />
+              <p style="font-weight: bold">Chef Emily Baker</p>
+              <p>Head Pastry Chef</p>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-lg-6 mb-4">
+              <img src="./images/chef2.jpg" />
+              <p style="font-weight: bold">Chef Alex Sweetman</p>
+              <p>Cake Decorator Extraordinaire</p>
+            </div>
+            <div class="row justify-content-center align-items-center">
+              <div class="col col-sm-12 col-md-6 col-lg-6 mb-4">
+                <img src="./images/chef3.jpg" />
+                <p style="font-weight: bold">Chef Sarah Frost</p>
+                <p>Flavor Alchemist</p>
+              </div>
+              <div class="col col-sm-12 col-md-6 col-lg-6 mb-4">
+                <img src="./images/chef4.jpg" />
+                <p style="font-weight: bold">Chef Jessica Icing</p>
+                <p>Customer Relations and Cake Consultant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQS -->
+      <section class="accordian-last mb-5" style="margin-top: -50px">
+        <h3>Frequently Ask Questions</h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Do you provide same-day birthday cakes delivery
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Yes, we do! Just place your order on CakeRush before 3PM
+                (Mon-Fri) and we will have it delivered the same day.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Do you deliver surprise birthday cakes?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Yes, we do! For the best results, please select a suitable time
+                slot for delivery when you are placing your order. Our tip: pick
+                a slot where the recipient will be available to receive the
+                surprise first-hand!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Do you deliver Cake in a Can in Metro Manila
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Yes, we do! Our delivery areas cover the whole of Metro Manila.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                How many delivery slots do you have?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>We have four delivery slots throughout the day:</p>
+                <p>a) 11:00 AM - 1:00 PM</p>
+                <p>b) 1:00 PM - 3:00 PM</p>
+                <p>c) 3:00 PM - 5:00 PM</p>
+                <p>d) 5:00 PM - 7:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <section class="footer">
+          <div class="footer-content">
+            <div id="footer-logo-wrapper">
+              <img src="./images/my-logo.jpg" />
+            </div>
+            <p>
+              Welcome to one of the biggest and the sweetest sweet stores all
+              over the country!
+            </p>
+          </div>
+
+          <div class="footer-content">
+            <h4>Quicklinks</h4>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </div>
+
+          <div class="footer-content">
+            <h4>Information</h4>
+            <li><a href="#">FAQ’s</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Delivery Info</a></li>
+            <li><a href="#">Refund policy</a></li>
+          </div>
+
+          <div class="footer-content">
+            <h4>Order</h4>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">View Cart</a></li>
+            <li><a href="#">Checkout</a></li>
+          </div>
+        </section>
+        <div class="copyright">
+          <span>&copy; 2023 by The Good Shepherd Sweets</span>
+        </div>
+      </footer>
+    </main>
+
+    <script src="popper.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>

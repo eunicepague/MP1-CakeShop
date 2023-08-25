@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:wght@300&family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:wght@300&family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* Universal code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --pink: #e18aaa;
+  --black: #000000;
+  --light-pink: #eadcdf;
+}
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  /* background-image: url('pink-background.png'); */
+  background-color: var(--light-pink);
+}
+
+nav {
+  background-color: transparent; /* Set background color to transparent */
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 80px;
+}
+
+.home-list {
+  display: flex;
+}
+
+.home-list li {
+  list-style: none;
+  margin: 0 25px;
+}
+
+.home-list li a {
+  color: #3f2305;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.home-list li:hover a {
+  color: var(--pink);
+}
+
+/* .logo-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  padding-right: 20px;
+  z-index: 999;
+}
+
+.logo-container-parent {
+  position: relative;
+  top: -100%;
+  transform: translateY(-100%);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.logo a {
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--black);
+  margin-top: 20px;
+} */
+
+.home-intro {
+  display: relative;
+  width: 100%;
+  height: calc(
+    100vh - 80px
+  ); /*this made my words on the left on the middle*/ /*old: 100vh*/
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10%;
+  overflow: hidden;
+}
+
+.home-intro .cols {
+  width: 50%;
+}
+
+.home-intro .cols1 {
+  position: relative;
+}
+.cols p {
+  margin-top: 50px;
+  font-size: 15px;
+  font-family: 'Arimo', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Preahvihear', sans-serif;
+}
+
+.greetings {
+  display: block;
+  position: relative;
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: #3f2305;
+  font-family: 'Lobster', cursive;
+}
+
+.greetings::after {
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  background-color: #b7384d;
+}
+
+.intro p {
+  color: #2e2525;
+}
+
+/* .about-section {
+  display: relative;
+  width: 100%;
+  height: calc(
+    100vh - 80px
+  ); 
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  overflow: hidden;
+}
+
+.about-section .col {
+  width: 50%; 
+}*/

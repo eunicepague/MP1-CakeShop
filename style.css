@@ -1,0 +1,1008 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:wght@300&family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:wght@300&family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+
+/* new */
+/* landing page */
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+/* welcome-container */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/* the good shepherd */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* birthday cakes */
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --white: #ffffff;
+  --pink: #f8d8e7;
+  --black: #000000;
+  --light-pink: #eadcdf;
+  --purple: #9e5f9e;
+
+  /* colors */
+  --cyan: #aae3e2;
+  --dark-brown: #3e2309;
+}
+
+/* ----------Banner Top---------- */
+.banner-section {
+  width: 100%;
+  min-height: 2vh;
+  /* background-image: url('pink-background.png'); */
+  background-color: #00ffff;
+}
+
+.banner-section .col {
+  line-height: 1;
+}
+
+.banner-section p {
+  color: var(--black);
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+
+.banner-section img {
+  /* max-width: 100%; */
+  width: 1.5em;
+  height: 1.5em;
+}
+
+/* ----------------NAV BAR------------------- */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+.navbar img {
+  width: 5rem;
+  margin-left: 3rem;
+}
+.navbar li {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.navbar a {
+  font-size: 1.2rem;
+}
+
+/* -------------HOME/HERO SECTION---------------- */
+
+.home-section {
+  background: url('./images/bg-1.jpg');
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -4;
+}
+
+.home-section h1 {
+  font-size: 7rem;
+  color: #ffffff;
+  z-index: 1;
+  text-align: center;
+  font-family: 'Bagel Fat One', cursive;
+}
+
+.home-section h6 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+
+  z-index: 4;
+}
+.home-section a {
+  text-decoration: none; /* Apply to the anchor element */
+  transition: transform 0.5s;
+}
+
+.home-section h6:hover {
+  transform: scale(1.3);
+  z-index: 10;
+}
+
+.home-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .home-container {
+  width: 100%;
+  min-height: 95vh;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; 
+}
+
+.greetings {
+  font-size: 60px; 
+  letter-spacing: 2px; 
+  color: #3f2305;
+  font-family: 'Lobster', cursive;
+}
+
+.home-container p {
+  margin-bottom: 2em;
+}
+
+.imgbox {
+  text-align: center; 
+}
+
+.imgbox img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .home-container {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .col {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .greetings span {
+    font-size: 1.5rem; 
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .greetings {
+    font-size: 70px; 
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .greetings {
+    font-size: 70px; 
+    line-height: 1;
+  }
+  .home-container p {
+    padding-top: 1em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .col {
+    flex: 0 0 auto;
+  }
+  .greetings {
+    font-size: 70px; 
+    line-height: 1;
+  }
+  .home-container p {
+    font-size: 0.8em;
+    padding-top: 1em;
+  }
+}*/
+
+.comic-button {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 24px;
+  font-weight: bold;
+  /* text-align: center; */
+  text-decoration: none;
+  color: #3f2305;
+  background-color: #f8d8e7;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+}
+
+.comic-button:hover {
+  background-color: #fff;
+  color: var(--cyan);
+  border: 2px solid var(--cyan);
+  box-shadow: 5px 5px 0px #ffc0cb;
+}
+
+.comic-button:active {
+  background-color: var(--cyan);
+  box-shadow: none;
+  transform: translateY(4px);
+  color: #fff;
+}
+
+/* ----------------WELCOME SECTION------------------- */
+.welcome-section {
+  width: 100%;
+  min-height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-container {
+  width: 70%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome-section h2 {
+  font-size: 4rem;
+  color: #000000;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: var(--pink);
+}
+
+.welcome-section h3 {
+  font-size: 3rem;
+  color: #000000;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 800;
+  margin-top: 3rem;
+  color: var(--cyan);
+}
+
+.welcome-section p {
+  padding: 1rem;
+}
+.welcome-container .btn {
+  border-radius: 10px;
+
+  margin-bottom: 6rem;
+}
+/*----------------PARALLAX ----------------*/
+
+.parallax-section1 {
+  /* The image used */
+  background-image: url('./images/parallax1.jpg');
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-section2 {
+  /* The image used */
+  background-image: url('./images/parallax2.jpg');
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*----------------ABOUT ME ----------------*/
+
+.about-section {
+  width: 100%;
+  min-height: 80vh;
+  /* background-image: url('pink-background.png'); */
+  background-color: var(--white);
+}
+
+.about-section .container {
+  position: relative;
+  /* Make the container a relative positioning context  */
+}
+
+.about-section .col {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* Align content to the bottom of the column  */
+  flex: 2 0 0%;
+}
+.about-img {
+  text-align: center;
+}
+
+.about-img img {
+  width: 30rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.about-section span p {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+}
+
+/* .about-img img {
+  max-width: 30rem;
+  max-height: 20rem;
+
+  max-width: 28em;
+  height: auto;
+  margin: auto;
+}  */
+
+/* ---------- COUPON SECTION ------------- */
+
+.coupon-section {
+  width: 100%;
+  min-height: 30vh; /* Adjust the max height as needed */
+  overflow: hidden; /* Hide any overflow content */
+}
+
+.carousel-inner {
+  max-width: 100%;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 20em;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* ----------------TREAT / MOST LOVE CAKES ---------------- */
+
+.treat-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--white);
+}
+.treat-section h1 {
+  font-family: 'Pacifico', cursive;
+}
+.treat-section span p {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+}
+
+.treat-section p {
+  text-align: center;
+  padding: 2em 0 0;
+  font-size: 2em;
+}
+
+.treat-section .container .col {
+  flex: 0 0 0%;
+}
+
+.treat-section .container img {
+  max-width: 18em;
+  height: auto;
+  margin: auto;
+}
+
+.treat-section .col p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+/* .treat-section {
+  width: 100%;
+  min-height: 90vh;
+  
+  background-color: var(--white);
+}
+.treat-section .treat-content .card {
+  margin: 0 0.5em;
+   width: calc(100% / 2); 
+}
+
+.treat-img-wrapper {
+  height: 22vw;
+  margin: 0 auto;
+}
+
+.treat-img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.treat-content h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Pacifico', cursive;
+}
+
+.treat-content .card-body h5 {
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: bold;
+} */
+
+/*----------------- MENU ----------------*/
+
+/* .new-arivals-section {
+  width: 100%;
+  min-height: 50vh;
+  
+  background-color: var(--purple);
+} */
+.new-arivals-section h1 {
+  text-align: center;
+  padding: 2em 0 0;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-family: 'Pacifico', cursive;
+}
+
+/*----------------- CAROUSEL MENU ----------------*/
+
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+.carousel-inner {
+  padding: 3e;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+@media screen and (min-width: 567px) {
+  .cards-wrapper {
+    display: flex;
+  }
+
+  .card {
+    margin: 0 0.5em;
+    width: calc(100% / 2);
+  }
+
+  .image-wrapper {
+    height: 22vw;
+    margin: 0 auto;
+  }
+}
+
+.carousel-inner .card-body,
+.carousel-inner .card-title {
+  text-align: center;
+}
+
+.carousel-inner .card-text p {
+  line-height: 1;
+  margin: 0.5em 0 0 0;
+  text-align: center;
+}
+
+/* Set the image width to 100% to match the card width */
+.image-wrapper img {
+  width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 567px) {
+  .cards-wrapper {
+    display: flex;
+  }
+  .card {
+    margin: 0 0.5em;
+    width: calc(100% / 2);
+  }
+
+  .image-wrapper {
+    height: 25vw;
+    margin: 0 auto;
+  }
+  .card:not(:first-child) {
+    display: none;
+  }
+}
+
+/* --------------Delivery Section--------------------- */
+
+.delivery-section {
+  width: 100%;
+  min-height: 10vh;
+  /* background-image: url('pink-background.png'); */
+  background-color: var(--dark-brown);
+}
+
+/* .delivery-section .col {
+  line-height: 0;
+} */
+
+.delivery-section img {
+  /* max-width: 100%; */
+  width: 3em;
+  height: 3em;
+  margin-bottom: 1em;
+}
+
+.delivery-section p {
+  color: var(--white);
+}
+
+/* -----SHOP / THE GOOD SHEPHERD SWEETS------- */
+
+.shop-container {
+  width: 100%;
+  min-height: 100vh;
+  /* background-image: url('pink-background.png'); */
+  background-color: var(--white);
+}
+
+.shop-container span p {
+  text-align: center;
+  padding: 2em 0 0;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-family: 'Pacifico', cursive;
+}
+
+.image-paragraph {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: var(--black);
+  padding: 5px;
+  font-weight: bold;
+  z-index: 999;
+}
+
+.shop-container .container .col {
+  flex: 0 0 0%;
+  position: relative;
+}
+
+/* .shop-container .container {
+  width: 100%;
+} */
+
+.shop-container img {
+  width: 15em;
+  height: 15em;
+  /* margin: 2em 0 0; */
+  /* margin: 1em; */
+  /* padding: 0;
+  margin: 0; */
+}
+
+/* --------------Delivery Again Section--------------------- */
+
+.delivery-two-section {
+  width: 100%;
+  min-height: 10vh;
+  /* background-image: url('pink-background.png'); */
+  background-color: var(--dark-brown);
+}
+
+.delivery-two-section .col {
+  line-height: 1;
+}
+
+.delivery-two-section img {
+  /* max-width: 100%; */
+  width: 5em;
+  height: 5em;
+  margin-bottom: 0;
+}
+
+.delivery-two-section p {
+  color: var(--white);
+  margin: 0;
+  line-height: 1;
+}
+
+/* ----------budget below 1000 1k------------------ */
+
+.budget-container {
+  width: 100%;
+  min-height: 100vh;
+  /* background-image: url('pink-background.png'); */
+  background-color: var(--white);
+}
+
+.budget-container span p {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+}
+
+.budget-container p {
+  text-align: center;
+  padding: 2em 0 0;
+  font-size: 2em;
+}
+
+.budget-container .container .col {
+  flex: 0 0 0%;
+}
+
+.budget-container .container img {
+  max-width: 18em;
+  height: auto;
+  margin: auto;
+
+  /* margin: 2em 0 0; */
+  /* margin: 1em; */
+  /* padding: 0;
+  margin: 0; */
+}
+
+.budget-container .col p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  /* padding: 1em; */
+}
+
+/* -------------testimony------------------ */
+.testimony {
+  width: 100%;
+  min-height: 50vh;
+  background-color: var(--pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimony .card {
+  width: 100%;
+}
+
+.testimony .card-body {
+  width: 100%;
+}
+
+.testimony .card-body img {
+  width: 50px; /* Set the width you want */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.testimony .card p {
+  font-style: italic;
+}
+
+.testimony .carousel-control-next,
+.carousel-control-prev {
+  display: flex;
+  position: absolute;
+  margin-right: -50px;
+  margin-left: -40px;
+}
+
+/* -----------FOOTER-------------- */
+
+/* body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(242, 228, 231);
+} */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background-color: #3e2309;
+  /* Remove position: absolute; */
+  /* Remove left, right, and bottom properties */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background-color: rgb(87, 34, 34);
+  position: absolute;
+  left: 0;
+  right: 0; */
+  bottom: 1;
+}
+
+.footer p {
+  font-size: 10rem;
+  display: absolute;
+  z-index: 999;
+}
+
+section {
+  padding: 80px 13% 70px;
+}
+.footer-content h4 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-content li a {
+  display: block;
+  color: #d6d6d6;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+.footer-content li a:hover {
+  transform: translateY(-3px) translateX(-5px);
+  color: #fff;
+}
+
+.footer-content p {
+  /* color: #d6d6d6; */
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+#footer-logo-wrapper img {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #fff;
+  width: 12rem;
+  height: 12rem; /* Set a fixed height for the wrapper */
+  margin-left: 50px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #00ffff;
+  padding: 10px 0; /* Adjust the padding as needed */
+  color: #000; /* Chanimgge the text color to your preference */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+@media (max-width: 1690px) {
+  section {
+    padding: 50px 5% 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  #footer-logo-wrapper img {
+    background-color: #fff;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* -----------------GALING SA MENU.HTML---------------------- */
+.image-content-wrap img {
+  max-width: 18em; /* Set the max-width to match the width of the images */
+  margin: auto;
+}
+
+.modal .image-wrap img {
+  width: 20rem;
+  height: auto;
+}
+
+.image-content p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.my-hr {
+  border: 1px solid #ccc; /* Set the border style and color */
+  margin: 20px 0; /* Adjust the margin as needed for spacing */
+}
+
+.cyan-button {
+  background-color: #ffffff;
+  border-color: #008b8b;
+  color: #008080;
+}
+
+.cyan-button:hover {
+  background-color: var(--pink);
+  border-color: var(--pink);
+  color: var(--dark-brown);
+}
+
+/* SUBMIT BUTTON */
+
+.submit-button {
+  background-color: var(--dark-brown);
+  border-color: var(--dark-brown);
+  color: var(--white);
+  padding: 0.5rem;
+}
+
+.submit-button:hover {
+  background-color: var(--pink);
+  border-color: var(--pink);
+  color: var(--dark-brown);
+}
+
+/* MODAL FOOTER BUTTONS */
+
+.close-button {
+  background-color: white;
+  border-color: var(--pink);
+  color: var(--dark-brown);
+}
+
+.save-button {
+  background-color: var(--pink);
+  border-color: var(--pink);
+  color: var(--dark-brown);
+}
+
+.save-button:hover {
+  background-color: var(--pink);
+  border-color: var(--pink);
+  color: var(--dark-brown);
+}
+.sched p {
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.my-hr {
+  border: 1px solid #ccc; /* Set the border style and color */
+  margin: 20px 0; /* Adjust the margin as needed for spacing */
+}
+
+.sched button {
+  width: 20rem;
+  height: auto;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sched .btn {
+  font-size: 13px; /* Adjust the font size as needed */
+}
+
+.custom-input {
+  width: 100px;
+  border-color: rgb(0, 221, 255);
+  border-width: 1px;
+}
+
+/* ACCORDIAN */
+
+.sched .container {
+  max-width: 100%;
+}
+.modal p {
+  /* font-weight: bold; */
+  text-align: left;
+}
+
+@media (max-width: 1690px) {
+  section {
+    padding: 50px 5% 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  #footer-logo-wrapper img {
+    background-color: #fff;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .additional-content {
+    order: 1;
+  }
+  .accordian-left {
+    display: none;
+  }
+  .introduction-menu h2 {
+    display: none;
+  }
+
+  .input-group {
+    width: 20rem;
+    margin-top: 10rem;
+  }
+
+  .side-container {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .additional-content {
+    order: 1;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+  /* .form-control {
+    width: 20rem;
+    max-width: 100%;
+    min-width: 100%;
+  } */
+
+  .delivery-two-section p {
+    font-size: 0.7rem;
+  }
+
+  .delivery-two-section img {
+    width: 4rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .additional-content {
+    display: none;
+  }
+
+  .image-content p {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* .delivery-two-section {
+    display: none;
+  } */
+
+  .delivery-two-section .col {
+    padding: 0;
+    margin: 0;
+  }
+}

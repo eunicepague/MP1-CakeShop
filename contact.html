@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="contact.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span><img src="./images/my-logo.png" /></span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
+            <!-- Apply justify-content-center class here -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn cyan-button" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="header">
+        <img src="./images/contact.jpg" alt="" />
+        <div class="overlay"></div>
+        <h1>Contact Us</h1>
+      </section>
+
+      <!-- BREADCCRUMPS -->
+      <div
+        class="breadcrumbs"
+        style="
+          --bs-breadcrumb-divider: url(
+            &#34;data:image/svg + xml,
+            %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='%236c757d'/%3E%3C/svg%3E&#34;
+          );
+        "
+        aria-label="breadcrumb"
+      >
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+      </div>
+
+      <section
+        class="contact-section d-flex align-items-center flex-column justify-content-center"
+      >
+        <div class="container">
+          <span class="greetings">We’re here to help you!</span>
+
+          <p>
+            Have a question, comment, or brilliant idea you'd like to share?
+            Send us a little note below - we love to hear from you and will
+            always reply!
+          </p>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card text-center mx-auto">
+                <div class="card-body">
+                  <div class="contact-images">
+                    <img src="./images/contact-call.png" />
+                  </div>
+                  <h5 class="card-title">Phone Number</h5>
+                  <p class="card-text">09107888915</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card text-center mx-auto">
+                <div class="card-body">
+                  <div class="contact-images">
+                    <img src="./images/contact-mail.png" />
+                  </div>
+                  <h5 class="card-title">Email</h5>
+                  <p class="card-text">thegoodshepherd@cakeshop.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card text-center mx-auto">
+                <div class="card-body">
+                  <div class="contact-images">
+                    <img src="./images/contact-loc.png" />
+                  </div>
+                  <h5 class="card-title">Location</h5>
+                  <p class="card-text">San Pedro, Laguna</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card text-center mx-auto">
+                <div class="card-body">
+                  <div class="contact-images">
+                    <img src="./images/contact-clock.png" />
+                  </div>
+                  <h5 class="card-title">Opening Hours</h5>
+                  <p class="card-text">10AM - 4PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-map d-flex flex-column justify-content-center">
+        <div class="container">
+          <span class="greetings">Do you want to get in touch?</span>
+          <p class="mb-5">Let us know how we can help you.</p>
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputMessage1" class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="5"
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="comic-button">Submit</button>
+              </form>
+            </div>
+            <div class="col-sm-12 col-md- col-lg-6">
+              <div class="imgbox">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30922.80830489138!2d121.0205064672062!3d14.349085257185088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d0d6c63526c5%3A0xd6e9ae89984e851e!2sSan%20Pedro%2C%20Laguna!5e0!3m2!1sen!2sph!4v1692777604804!5m2!1sen!2sph"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section class="footer">
+        <div class="footer-content">
+          <div id="footer-logo-wrapper">
+            <img src="./images/my-logo.jpg" />
+          </div>
+          <p>
+            Welcome to one of the biggest and the sweetest sweet stores all over
+            the country!
+          </p>
+        </div>
+
+        <div class="footer-content">
+          <h4>Quicklinks</h4>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="#">Contact</a></li>
+        </div>
+
+        <div class="footer-content">
+          <h4>Information</h4>
+          <li><a href="#">FAQ’s</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Delivery Info</a></li>
+          <li><a href="#">Refund policy</a></li>
+        </div>
+
+        <div class="footer-content">
+          <h4>Order</h4>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">View Cart</a></li>
+          <li><a href="#">Checkout</a></li>
+        </div>
+      </section>
+      <div class="copyright">
+        <span>&copy; 2023 by The Good Shepherd</span>
+      </div>
+    </footer>
+    <!-- <section class="footer-container flex-column justify-content-center">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-6 col-sm-12 col-md-12 col-lg-6">
+            <div class="d-flex flex-row">
+              <div id="footer-logo-wrapper">
+                <img src="./images/my-logo.png" />
+              </div>
+
+              <span class="d-flex justify-content-center align-items-center">
+                Welcome to one of the biggest and the sweetest sweet stores
+                all over the country!
+              </span>
+            </div>
+          </div>
+          <div
+            class="col-2 col-sm-12 col-md-4 col-lg-2 d-flex flex-column order-3 mt-4 order-md-2"
+          >
+            <h6>Quicklinks</h6>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">MENU</a>
+            <a href="#">CONTACT</a>
+          </div>
+          <div
+            class="col-2 col-sm-12 col-md-4 col-lg-2 d-flex flex-column mt-4 order-2 order-md-3"
+          >
+            <h6>Information</h6>
+            <a href="#">FAQ’s</a>
+            <a href="#">Terms</a>
+            <a href="#">Delivery Info</a>
+            <a href="#">Refund policy</a>
+          </div>
+          <div
+            class="col-2 col-sm-12 col-md-4 col-lg-2 d-flex flex-column mt-4 order-1"
+          >
+            <h6>Order</h6>
+            <a href="#">My Account</a>
+            <a href="#">View Cart</a>
+            <a href="#">Checkout</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <script src="popper.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+<!-- <div class="flex-column">
+                    <div class="d-flex flex-row">
+                      <img src="./images/contact-call.png" />
+                      <p>09107888915</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                      <img src="./images/contact-mail.png" />
+                      <p>thegoodshepherd@cakeshop.com</p>
+                    </div>
+                  </div> -->
